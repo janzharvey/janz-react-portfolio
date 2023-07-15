@@ -1,0 +1,159 @@
+.about_img{
+    width: 250px;
+    justify-self: center;
+    align-items: center;
+}
+
+.about_description{
+    text-align: center;
+    margin-bottom: var(--mb-2);
+}
+
+.about_buttons{
+    text-align: center;
+}
+
+.about_icon-logo{
+    text-align: center;
+    justify-self: center;
+    margin-bottom: var(--mb-1);
+}
+
+.about_icons{
+    display: inline-flex;
+    align-items: center;
+    font-size: var(--big-font-size);
+    margin-left: var(--mb-0-75);
+    margin-right: var(--mb-0-75);
+}
+
+.javascript{
+    color: #2E2E2E;
+}
+
+.html{
+    color: #e34c26;
+}
+
+.css{
+    color:   #264de4;  
+}
+
+.java{
+    color:   #5382a1;  
+}
+
+.android {
+    color:  #78C257;  
+}
+
+.eclipse{
+    color:  #443583;  
+}
+
+.sql {
+    color: #F29111;
+}
+
+.react{
+    color:  #61DBFB;  
+}
+
+.qualification_tabs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2);
+}
+
+.qualification_button{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+}
+
+.qualification_button:hover{
+    color: var(--first-color);
+}
+
+
+.qualification_icon{
+    font-size: 1.5rem;
+    margin-right: var(--mb-0-5);
+}
+
+.qualification_data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualification_title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.qualification_subtitle{
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.qualification_calendar{ 
+    font-size: var(--small-font-size);
+    color: var(--text-color-light)
+}
+
+.qualification_rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+}
+
+.qualification_line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--first-color);
+    transform: translate(6px, -7px);
+}
+
+.qualification [data-content]{
+    display: none;
+}
+
+
+.qualification_active[data-content]{
+    display: block;
+}
+
+.qualification_content{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+.default{
+    display: inline-flex;
+    color: var(--first-color);
+}
+
+
+@media screen and (min-width: 568px){
+ 
+    .about_container{
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      margin-right: 3rem;
+    }
+
+    .qualification_sections{
+        display: grid;
+        grid-template-columns: .6fr;
+        justify-content: center;
+    }
+
+  }

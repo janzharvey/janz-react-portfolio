@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/janz-react-portfolio/static/css/main.55e0fa3f.css",
+    "main.js": "/janz-react-portfolio/static/js/main.0fe28d36.js",
+    "static/js/787.88012170.chunk.js": "/janz-react-portfolio/static/js/787.88012170.chunk.js",
+    "static/media/CC.png": "/janz-react-portfolio/static/media/CC.6cfa74fdbf1475bece0a.png",
+    "static/media/mobile-img-card.png": "/janz-react-portfolio/static/media/mobile-img-card.aab479797239be25be35.png",
+    "static/media/home-profile.png": "/janz-react-portfolio/static/media/home-profile.c92f685f696814a92f1d.png",
+    "static/media/about-profile.png": "/janz-react-portfolio/static/media/about-profile.158fd730297ead5a2bc7.png",
+    "static/media/CV-JANZ-HARVEY.pdf": "/janz-react-portfolio/static/media/CV-JANZ-HARVEY.b96208d8612037990030.pdf",
+    "static/media/FC-LOGO.png": "/janz-react-portfolio/static/media/FC-LOGO.f4d092fbf781b829e78b.png",
+    "index.html": "/janz-react-portfolio/index.html",
+    "main.55e0fa3f.css.map": "/janz-react-portfolio/static/css/main.55e0fa3f.css.map",
+    "main.0fe28d36.js.map": "/janz-react-portfolio/static/js/main.0fe28d36.js.map",
+    "787.88012170.chunk.js.map": "/janz-react-portfolio/static/js/787.88012170.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55e0fa3f.css",
+    "static/js/main.0fe28d36.js"
+  ]
+}

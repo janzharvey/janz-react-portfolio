@@ -33,7 +33,7 @@ function Projects(){
                         </div>
 
                         <div className='project_card'>
-                           <a href="janzharvey.github.io/christmas-carolling/" target="_blank" className="project_card-link"  >
+                           <a href="https://janzharvey.github.io/christmas-carolling/" target="_blank" className="project_card-link"  >
                             <img src={Christmas} alt=""/>
                            </a>
 
